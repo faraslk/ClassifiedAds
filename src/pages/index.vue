@@ -1,6 +1,6 @@
 <template>
  
-<Header />
+<Front />
 
  
 </template>
@@ -8,14 +8,16 @@
 <script>
 
 import AppFooter from "@/components/AppFooter.vue";
-import Header from "@/components/Header.vue";
+
 import HelloWorld from "@/components/HelloWorld.vue";
+import Front from '@/components/front.vue';
   export default {
 
 components:{
-    Header,
+    Front,
     AppFooter,
     HelloWorld
+
 },
 
 
