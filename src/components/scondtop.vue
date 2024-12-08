@@ -6,18 +6,7 @@
         <span style="color: #edf17f">A</span>ds
       </p>
 
-      <v-text-field
-        :loading="loading"
-        append-inner-icon="mdi-magnify"
-        density="compact"
-        label="Search"
-        variant="solo"
-        hide-details
-        single-line
-        rounded
-        class="custom-text-field"
-        @click:append-inner="onClick"
-      />
+
 
   
       <div class="header-menu">
@@ -56,10 +45,7 @@
   margin: 0; /* Remove default margin */
 }
 
-.custom-text-field {
-  flex: 1; /* Allows the text field to grow if needed */
-  max-width: 400px; /* Adjust as necessary */
-}
+
 
 .header-menu {
   font-family: "Irish Grover",cursive;

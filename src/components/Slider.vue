@@ -15,23 +15,13 @@
       </div>
     </v-col>
     <v-col>
-      <v-carousel show-arrows="hover" height="315" class="carousel-container">
+      <v-carousel show-arrows="hover" height="315" class="carousel-container" hide-delimiters cycle interval="3000">
         <v-carousel-item src="@/assets/Consumer Electronics.jpg">
-          <p>
-            It is a long established fact that a reader will be distracted by the
-            readable content of a page when looking at its layout. The point of
-            using Lorem Ipsum is that it has a more-or-less normal distribution
-            of letters, as opposed to using 'Content here, content here',
-          </p>
         </v-carousel-item>
 
-        <v-carousel-item
-          src="@/assets/house.jpg"
-        ></v-carousel-item>
+        <v-carousel-item src="@/assets/house.jpg"></v-carousel-item>
 
-        <v-carousel-item
-          src="@/assets/Home&Garden.jpg"
-        ></v-carousel-item>
+        <v-carousel-item src="@/assets/Home&Garden.jpg"></v-carousel-item>
       </v-carousel>
     </v-col>
   </v-row>
@@ -44,10 +34,9 @@
   justify-content: center; /* Centers the video horizontally */
   align-items: center; /* Centers the video vertically */
   width: 100%;
-  background-color: #d9d9d9; /* Light gray background */
+  background-color: #F5D9C0; /* Light gray background */
   margin: 0; /* Ensure no external margins */
   padding: 0; /* Ensure no internal padding */
-
 }
 
 iframe {
@@ -55,11 +44,12 @@ iframe {
   height: 315;
 }
 
-.carousel-container{
-    background-color: #d9d9d9; /* Light gray background */
+.carousel-container {
+  background-color: #F5D9C0; /* Light gray background */
 
-    width: 100%;
-    margin: 0; /* Ensure no external margins */
-    padding: 0; /* Ensure no internal padding */
+
+  width: 100%;
+  margin: 0; /* Ensure no external margins */
+  padding: 0; /* Ensure no internal padding */
 }
 </style>

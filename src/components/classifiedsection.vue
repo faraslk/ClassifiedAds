@@ -89,6 +89,11 @@
 
 </script>
 <style scoped>
+
+.clssified-section {
+  background-color: #F5D9C0;
+  padding: 20px; /* Optional spacing */
+}
 .classifiedfont {
   display: flex;
   gap: 20px; /* Add space between links */

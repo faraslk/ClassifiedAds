@@ -1,6 +1,6 @@
 <template>
  <Headertop />
-  <Secondtop />
+
 
   <slider />
  
@@ -27,10 +27,7 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
 
-.clssified-section {
-  background-color: #d6d6e1;
-  padding: 20px; /* Optional spacing */
-}
+
 
 .first-letter {
   font-family: "Irish Grover", cursive;
